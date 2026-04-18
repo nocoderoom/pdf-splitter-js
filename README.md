@@ -4,7 +4,7 @@ A high-performance, lightweight utility for splitting PDF documents based on cus
 
 ---
 
-### 🚀 Features
+### Features
 
 * **Custom Page Ranges:** Supports complex input formats such as `1-3, 5, 8-10`.
 * **Privacy-First:** All processing happens directly in the browser; files are never uploaded to a server.
@@ -14,7 +14,7 @@ A high-performance, lightweight utility for splitting PDF documents based on cus
 
 ---
 
-### 📦 Installation
+### Installation
 
 ```bash
 npm install pdf-lib
@@ -22,7 +22,7 @@ npm install pdf-lib
 
 ---
 
-### 🛠️ Usage
+### Usage
 
 ```typescript
 import { splitPdf } from "./pdf-splitter";
@@ -39,7 +39,7 @@ const result = await splitPdf(file, "1-3,5");
 
 ---
 
-### 📄 Page Input Format
+### Page Input Format
 
 The parser is flexible and handles various range configurations:
 
@@ -53,9 +53,21 @@ The parser is flexible and handles various range configurations:
 
 ---
 
-### 🖥️ Demo
+### Demo
 
 The screenshot below illustrates a complete web application built using this core logic. 
+
+### 1. Upload your PDF
+![Upload](./screenshots/pdf-splitter-upload-ui.png)
+
+### 2. Choose split method (Pages / Range / Size)
+![Modes](./screenshots/pdf-splitter-pages-mode.png)
+
+### 3. Configure ranges visually
+![Range](./screenshots/pdf-splitter-range-mode.png)
+
+### 4. Export split files instantly
+![Result](./screenshots/pdf-splitter-size-mode.png)
 
 > **Note:** This repository contains the **core logic only**. The UI and additional tools are available in the full version.
 
@@ -63,7 +75,7 @@ The screenshot below illustrates a complete web application built using this cor
 
 ---
 
-### 💎 Premium Version
+### Full Projects
 
 Looking for a production-ready SaaS solution? The full platform includes:
 
@@ -72,11 +84,11 @@ Looking for a production-ready SaaS solution? The full platform includes:
 * **Batch Processing:** Handle multiple files simultaneously.
 * **Optimized Performance:** GTmetrix A-grade performance with multi-language support.
 
-👉 [**Get the Full Source Code**](https://your-gumroad-link.com)
+👉 [**Get the Full Source Code**](https://nocodeteam.gumroad.com/l/pdftools)
 
 ---
 
-### 📜 License
+### License
 
 This project is licensed under the **MIT License**.
 
@@ -84,7 +96,7 @@ It utilizes `pdf-lib` (MIT License) - [github.com/Hopding/pdf-lib](https://githu
 
 ---
 
-### 🤖 Attribution & Safety
+### Attribution & Safety
 
 * **Clean Implementation:** No proprietary code; built using standard open-source libraries.
 * **Standalone Value:** Provides a fully functional utility for developers to integrate immediately.
